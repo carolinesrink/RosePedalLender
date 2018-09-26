@@ -108,84 +108,28 @@ body {
     color: #720000;
 }
 
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: #000000d4;
+    margin-right: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    margin-top: -17px;
+    width: 30%;
+    float: right;
+}
+
 /* Map Image Placeholder */
 #mainMap {
-    position: relative;
-    top: 65px;
-    left: 0;
     width: 100%;
-    border-radius: 10px;
-}
-
-#mapPin1 {
-    position: absolute;
-    top: 195px;
-    left: 330px;
-    height: 45px;
-    width: auto;
-}
-
-#mapPin2 {
-    position: absolute;
-    top: 367px;
-    left: 1015px;
-    height: 45px;
-    width: auto;
-}
-
-#mapPin3 {
-    position: absolute;
-    top: 385px;
-    left: 75px;
-    height: 45px;
-    width: auto;
-}
-
-#mapPin4 {
-    position: absolute;
-    top: 440px;
-    left: 540px;
-    height: 45px;
-    width: auto;
-}
-
-#mapPin5 {
-    position: absolute;
-    top: 670px;
-    left: 820px;
-    height: 45px;
-    width: auto;
-}
-
-#mapPin6 {
-    position: absolute;
-    top: 685px;
-    left: 125px;
-    height: 45px;
-    width: auto;
-}
-
-#mapPin1:hover,
-#mapPin2:hover,
-#mapPin3:hover,
-#mapPin4:hover,
-#mapPin5:hover,
-#mapPin6:hover {
-    height: 55px;
-    width: auto;
 }
 
 /* Map Stations */
-#station1 {
-    margin-top: 75px;
-    border-radius: 10px 10px 0 0;
-}
 
-#station6 {
-    border-radius: 0 0 10px 10px;
-    margin-bottom: 20px;
-}
-
+/* Bike Station Rows */
 #station1,
 #station2,
 #station3,
@@ -200,7 +144,6 @@ body {
 #stationTitle {
     font-family: 'Domine', serif;
 }
-
 
 #address,
 #bikes {
@@ -219,6 +162,7 @@ body {
     width: 100%;
 }
 
+/* Select Buttons */
 #select1,
 #select2,
 #select3,
@@ -229,6 +173,68 @@ body {
     color: white;
     font-size: 20px;
 }
+
+/* Selected Station */
+
+/* Selected Station Map */
+#pin1Map {
+    width: 100%;
+    margin-top: 55px;
+}
+
+#selected1 {
+    background-color: #430000;
+    border: 1px solid black;
+    margin-top: 60px;
+    height: 40px;
+    width: 100%;
+}
+
+#station1bikes {
+    background-color: #E6E6E6;
+}
+
+/* Nedded Bikes label */
+#bikeLabel {
+    font-family: 'Domine', serif;
+    color: #720000;
+    font-size: 25px;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+ /* Bikes in the List */
+#bike {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #720000;
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+/* Last bike in the list */
+#bikeBottom {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #720000;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+
+/* Camera icon */
+#camera {
+    height: 33px;
+    width: auto;
+    left: 50%;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+#station1selected {
+    margin-top: 15px;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+    color: #720000;
+}
+
 
 @media screen and (max-width: 1440px) {
 
@@ -293,6 +299,24 @@ body {
         height: 45px;
         width: 25%;
     }
+    #roseIcon {
+        margin: -129px 0 -26px 6px;
+    }
+    #iconTitle {
+        margin: -72px 0px 0px 60px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: white;
+        font-size: 26px;
+    }
+    #select {
+        width: 35%;
+        margin: 0 0 20px 200px;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
 }
 @media screen and (max-width: 600px) {
     #title {
@@ -314,6 +338,9 @@ body {
     #login {
         height: 42px;
         width: 20%;
+    }
+    #select {
+        margin: 0px 0 20px 175px;
     }
 }
 @media screen and (max-width: 425px) {
@@ -349,11 +376,18 @@ body {
     #signUpHere {
         width: 60%;
     }
+    #select {
+        width: 40%;
+        margin: 0px 0 20px 110px;
+    }
 }
 @media screen and (max-width: 414px) {
     #logo {
         height: 140px;
         margin: 20px 0px -15px 55px;
+    }
+    #select {
+        margin: 0px 0 20px 105px;
     }
 }
 @media screen and (max-width: 375px) {
@@ -367,6 +401,20 @@ body {
     #lender {
         margin: 0px 0px 15px 87px;
         font-size: 30px;
+    }
+    #roseIcon {
+        height: 35px;
+        margin: -130px 0 -25px 6px;
+    }
+    #iconTitle {
+        font-size: 22px;
+        margin: -70px 0px 0px 49px;
+    }
+    .navbar-default .navbar-toggle {
+        font-size: 22px;
+    }
+    .navbar-default {
+        height: 50px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -393,5 +441,9 @@ body {
     #lender {
         margin: 0px 0px 15px 72px;
         font-size: 25px;
+    }
+    #select {
+        width: 50%;
+        margin: 0px 0 20px 67px;
     }
 }
