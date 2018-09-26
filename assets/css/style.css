@@ -1,0 +1,397 @@
+body {
+    background-color: #B5AA9E;
+}
+
+/* Sign In and Sign Up Pages */
+
+/* Centering everything */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Logo Image */
+#logo {
+    height: 250px;
+    width: auto;
+    margin: 0px 0px 0px 320px;
+}
+
+/* RosePedal */
+#title {
+    font-family: 'Domine', serif;
+    color: white;
+    font-size: 110px;
+    text-shadow: 3px 3px 3px #720000;
+    margin-top: -75px;
+}
+
+#lender {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #720000;
+    font-size: 50px;
+    margin: 0px 0px 15px 430px;
+}
+
+/* Inputs */
+#username,
+#password {
+    border: 1px solid #720000;
+    height: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+/* Button */
+#login {
+    background-color: #720000;
+    border: 1.3px solid #340000;
+    width: 20%;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Button Link Shortcut */
+#login2 {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+}
+
+/* Sign Up or Sign In Link */
+#signUpHere {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 35%;
+}
+
+/* Home Page */
+
+/* Nav Bar */
+#roseIcon {
+    height: 45px;
+    width: auto;
+    margin: 8px 0 -22px 6px;
+}
+
+#iconTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #720000;
+    font-size: 30px;
+    margin: -11px 0px 0px 70px;
+}
+
+.navbar-default {
+    background-color: #B5AA9E;
+    border-color: #B5AA9E;
+    height: 65px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #720000;
+}
+
+/* Map Image Placeholder */
+#mainMap {
+    position: relative;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#mapPin1 {
+    position: absolute;
+    top: 195px;
+    left: 330px;
+    height: 45px;
+    width: auto;
+}
+
+#mapPin2 {
+    position: absolute;
+    top: 367px;
+    left: 1015px;
+    height: 45px;
+    width: auto;
+}
+
+#mapPin3 {
+    position: absolute;
+    top: 385px;
+    left: 75px;
+    height: 45px;
+    width: auto;
+}
+
+#mapPin4 {
+    position: absolute;
+    top: 440px;
+    left: 540px;
+    height: 45px;
+    width: auto;
+}
+
+#mapPin5 {
+    position: absolute;
+    top: 670px;
+    left: 820px;
+    height: 45px;
+    width: auto;
+}
+
+#mapPin6 {
+    position: absolute;
+    top: 685px;
+    left: 125px;
+    height: 45px;
+    width: auto;
+}
+
+#mapPin1:hover,
+#mapPin2:hover,
+#mapPin3:hover,
+#mapPin4:hover,
+#mapPin5:hover,
+#mapPin6:hover {
+    height: 55px;
+    width: auto;
+}
+
+/* Map Stations */
+#station1 {
+    margin-top: 75px;
+    border-radius: 10px 10px 0 0;
+}
+
+#station6 {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+#station1,
+#station2,
+#station3,
+#station4,
+#station5,
+#station6 {
+    background-color: white;
+    border: 1px solid #E6E6E6;
+    color: #720000;
+}
+
+#stationTitle {
+    font-family: 'Domine', serif;
+}
+
+
+#address,
+#bikes {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#bikes {
+    margin-bottom: 15px;
+}
+
+#select {
+    background-color: #910202;
+    border: 1px solid #430000;
+    margin-top: 60px;
+    height: 40px;
+    width: 100%;
+}
+
+#select1,
+#select2,
+#select3,
+#select4,
+#select5,
+#select6 {
+    font-family: 'Domine', serif;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1024px) {
+    #title {
+        font-size: 93px;
+    }
+    #logo {
+        height: 235px;
+        margin: 0px 0px 0px 263px;
+    }
+    #lender {
+        margin: 0px 0px 15px 330px;
+    }
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+    #title {
+        font-size: 71px;
+    }
+    #logo {
+        height: 200px;
+        margin: 20px 0px 15px 192px;
+    }
+    #lender {
+        margin: 0px 0px 15px 244px;
+        font-size: 40px;
+    }
+    #username, 
+    #password {
+        height: 48px;
+        margin-bottom: -10px;
+    }
+    #login {
+        height: 48px;
+    }
+}
+@media screen and (max-width: 640px) {
+    #title {
+        font-size: 59px;
+    }
+    #logo {
+        height: 160px;
+        margin: 20px 0px 25px 160px;
+    }
+    #lender {
+        margin: 0px 0px 15px 200px;
+        font-size: 36px;
+    }
+    #username, 
+    #password {
+        height: 45px;
+        width: 45%;
+    }
+    #login {
+        height: 45px;
+        width: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #title {
+        font-size: 56px;
+    }
+    #logo {
+        height: 145px;
+        margin: 20px 0px 30px 150px;
+    }
+    #lender {
+        margin: 0px 0px 15px 191px;
+        font-size: 33px;
+    }
+    #username, 
+    #password {
+        height: 42px;
+        width: 40%;
+    }
+    #login {
+        height: 42px;
+        width: 20%;
+    }
+}
+@media screen and (max-width: 425px) {
+    #title {
+        margin-bottom: 13px;
+        font-size: 61px;
+        margin-top: -25px;
+        width: 80%;
+    }
+    #logo {
+        height: 140px;
+        margin: 20px 0px -16px 58px;
+    }
+    #lender {
+        margin: 0px 0px 15px 103px;
+        font-size: 33px;
+    }    
+    #username, 
+    #password,
+    #login {
+        height: 32px;
+        border-radius: 6px;
+        width: 60%;
+    }
+    #login {
+        width: 35%;
+    }
+    #login2 {
+        font-size: 13px;
+        vertical-align: top;
+        line-height: 1.5;
+    }
+    #signUpHere {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 414px) {
+    #logo {
+        height: 140px;
+        margin: 20px 0px -15px 55px;
+    }
+}
+@media screen and (max-width: 375px) {
+    #title {
+        font-size: 54px;
+    }
+    #logo {
+        height: 125px;
+        margin: 20px 0px -14px 48px;
+    }
+    #lender {
+        margin: 0px 0px 15px 87px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 360px) {
+    #title {
+        font-size: 51px;
+    }
+    #logo {
+        height: 120px;
+        margin: 20px 0px -10px 45px;
+    }
+    #lender {
+        margin: 0px 0px 15px 84px;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #title {
+        font-size: 45px;
+    }
+    #logo {
+        height: 100px;
+        margin: 20px 0px -5px 43px;
+    }
+    #lender {
+        margin: 0px 0px 15px 72px;
+        font-size: 25px;
+    }
+}
